@@ -1,0 +1,44 @@
+Name: Neela Saranya Avudaiappan  (Other Team Member - Praarthana Ramakrishnan)
+
+Clemson Email Address: navudai@g.clemson.edu
+
+Course number: 6160
+
+Project no: 6
+
+Project due date: Dec 2, 2016
+
+Project description: A Playable Game
+
+Praarthana Contribution:
+1. Implemented bullet projectile motion
+2. Implemented collision detection with enemysprite(crocodile) and bullet
+3. Detected end of game using collision with key
+4. Implemented Object pool
+5. Implemented Enemy sprite explosion
+6. Health meter color change while health is low
+7. Implemented AI using observer pattern
+
+
+Extra Contribution : 
+
+(1) Implemented 4 collision detections in total( Monkey-Crocodile, Monkey-Pineapple, Crocodile-Bullet, Monkey-Key ) and explosions accordingly.
+(2) Health meter Color changes from green to red while low
+
+Problems with this project: No specific problems detected
+
+GOAL : Escape the smart crocodiles, try not to get hit by the pineapples and collect the key to gain ownership of the beach.
+
+Player Movements : A -> moves left
+                   D -> moves right 
+                   W -> jumps up
+                   S -> to shoot bullets
+                   G -> to toggle God mode
+
+F2 - Illustrate Hud Pool
+F1 - Toggle Hud
+
+AI - The crocodile (enemy sprite) is smart enough to change its direction towards monkey and tries to kill the monkey everytime.
+God Mode : When God Mode is ON, the player does not explode on collision with crocodile and when health bar does not decrease. Instead, crocodile collides and explodes.
+
+
